@@ -1,0 +1,35 @@
+@charset "utf-8";
+
+.container-fluid{margin: 0}
+.aside-box .aside{width: 200px;position: fixed;top: 0;bottom: 0;background: #57585b;left: 0}
+.aside-box .aside li{width: 200px;height: 50px;text-align: center;line-height: 50px;}
+.aside-box .aside li:hover{background: #f19715}
+.aside-box .aside li a{color: #fff;font-size: 18px;font-family: "Helvetica Neue", Helvetica, Arial, sans-serif}
+.aside-box .aside li a:hover{text-decoration: none}
+
+.content-box{position: relative;height: 100%;margin-left: 200px}
+.con-block{position: absolute;width: 100%}
+.con-block .con-block-title{font-size: 18px;line-height: 80px;}
+.con-block .con-block-title span{border-left: 2px solid #f19715;padding-left: 15px;font-weight: bold}
+
+table.table thead th > div,table.table tbody td > div{text-align: center}
+table.table select{width: 100px;height: 26px;}
+table.table select option{text-align: center}
+
+.modal .modal-title{text-align: center}
+.modal .modal-body{min-height: 200px}
+.modal .modal-footer{}
+
+.ft-orange{color: #f19715}
+.ft-red{color: #ef3339}
+.ft-blue{color: #00a5ff}
+.ft-green{color: #19a541}
+.ft-bold{font-weight: bold}
+
+.mR15{margin-right: 15px}
+.mL15{margin-left: 15px}
+.mT15{margin-top: 15px}
+.mB15{margin-bottom: 15px}
+
+
+

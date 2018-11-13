@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,Chrome=1">
+    <link rel="stylesheet" href="../static/asset/bootstrap/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="../static/css/common.css"/>
+    <link href="../static/img/favicion.ico" type="image/x-icon" rel="shortcut icon" />
+    <title>任务列表</title>
+</head>
+<body>
+<div class="container-fluid">
+    <div class="aside-box"></div>
+    <div class="content-box">
+        <div class="con-block">
+            <p class="con-block-title"><span>任务列表</span></p>
+            <div class="con-block-container">
+                <div class="row clearfix">
+                    <p class="col-xs-4">本周应领工时: <span class="ft-blue ft-bold">12</span>小时</p>
+                    <p class="col-xs-4">本周已领工时: <span class="ft-green ft-bold">12</span>小时</p>
+                    <p class="col-xs-4">待完成工时: <span class="ft-red ft-bold">12</span>小时</p>
+                </div>
+                <div class="table-box mT15">
+                    <table class="table table-bordered table-striped">
+                        <thead>
+                        <tr>
+                            <th class="tt1"><div>序号</div></th>
+                            <th class="tt2"><div>任务描述</div></th>
+                            <th class="tt3"><div>功能预估</div></th>
+                            <th class="tt4"><div>复杂度</div></th>
+                            <th class="tt5"><div>工时</div></th>
+                            <th class="tt6"><div>状态</div></th>
+                            <th class="tt7"><div>操作</div></th>
+                            <th class="tt8" width="150"><div>领取人</div></th>
+                            <th class="tt9"><div>备注1</div></th>
+                            <th class="tt10"><div>备注2</div></th>
+                            <th class="tt11"><div>备注3</div></th>
+                            <th class="tt12"><div>备注4</div></th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td class="tt1"><div>1</div></td>
+                            <td class="tt2"><div></div></td>
+                            <td class="tt3"><div></div></td>
+                            <td class="tt4"><div></div></td>
+                            <td class="tt5"><div></div></td>
+                            <td class="tt6"><div></div></td>
+                            <td class="tt7"><div>
+                                <a href="javascript:;"><span class="ft-orange mR15" data-target=".modal1" data-toggle="modal">编辑</span></a>
+                                <a href="javascript:;"><span class="ft-blue mR15" data-target=".modal2" data-toggle="modal">领取</span></a>
+                                <a href="javascript:;"><span class="ft-green mR15" data-target=".modal3" data-toggle="modal">完成</span></a>
+                                <a href="javascript:;"><span class="ft-red mR15" data-target=".modal4" data-toggle="modal">删除</span></a>
+                            </div></td>
+                            <td class="tt8"><div>
+                                <select name="" id="" >
+                                    <option value="">员工1</option>
+                                    <option value="">员工2</option>
+                                </select>
+                            </div></td>
+                            <td class="tt9"><div></div></td>
+                            <td class="tt10"><div></div></td>
+                            <td class="tt11"><div></div></td>
+                            <td class="tt12"><div></div></td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--dialog modal-->
+<div class="modal fade tip-dialog modal1" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+    <div class="modal-dialog ">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title">编辑</h4>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-info" data-dismiss="modal ">确定</button>
+                <button type="button" class="btn btn-danger" data-dismiss="modal">关闭</button>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade tip-dialog modal2" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+    <div class="modal-dialog ">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title">领取</h4>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-info" data-dismiss="modal ">确定</button>
+                <button type="button" class="btn btn-danger" data-dismiss="modal">关闭</button>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade tip-dialog modal3" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+    <div class="modal-dialog ">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title">完成</h4>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-info" data-dismiss="modal ">确定</button>
+                <button type="button" class="btn btn-danger" data-dismiss="modal">关闭</button>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade tip-dialog modal4" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+    <div class="modal-dialog ">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title">删除</h4>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-info" data-dismiss="modal ">确定</button>
+                <button type="button" class="btn btn-danger" data-dismiss="modal">关闭</button>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="../static/js/jquery-1.11.2.min.js"></script>
+<script src="../static/asset/bootstrap/js/bootstrap.min.js"></script>
+<script src="../static/asset/laydate/laydate.js"></script>
+<script src="../static/asset/layer/layer.js"></script>
+<script src="../static/js/main.js"></script>
+</body>
+</html>
